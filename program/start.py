@@ -87,17 +87,17 @@ async def start_(c: Client, message: Message):
         f"""ههݪاެ حبيب {message.from_user.mention()} ❤️‍🔥\n
 اެناެ بَۅت بَمميࢪ࣪اެتَ متَعدَدةَ ݪتشغِيݪ اެݪاغاެنِي فَي اެݪمَجمَۅعاتَ 🥇.
 
--› [ᔕOᑌᖇᑕE ᒍEᑭTᕼOᑎ 𖢅](http://t.me/jepthon)
+-› [ᔕOᑌᖇᑕE𖢅](https://t.me/D_o_m_A12)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("🥇 اضفني الي مجمۅعتَك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="user_guide")
+                    InlineKeyboardButton("طريقه التشغيل", callback_data="user_guide")
                 ],[
-                    InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="command_list"),
-                    InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/{OWNER_USERNAME}")                    
+                    InlineKeyboardButton("الاوامر", callback_data="command_list"),
+                    InlineKeyboardButton("المطور", url=f"https://t.me/{OWNER_USERNAME}")                    
                 ],
             ]
         ),
